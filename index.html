@@ -1,152 +1,158 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/73278e4027.js" crossorigin="anonymous"></script>
-    <title>Bikyo App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bikyo App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/73278e4027.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <input type="checkbox" id="toggle" class="toggle-checkbox">
-    <label for="toggle" class="menu-icon">
-    <div class="menu target center">
-      <div class="menu-line menu-line-1"></div>
-      <div class="menu-line menu-line-2"></div>
+
+  <!-- Menu Toggle Button -->
+  <input type="checkbox" id="toggle" class="toggle-checkbox" />
+  <label for="toggle" class="menu-icon">
+    <div class="menu center">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
     </div>
-    </label>
-    <!-- End of Menu -->
+  </label>
 
-    <!-- Navbar -->
-    <nav class="navbar target">
-      <input type="checkbox" id="toggle" class="toggle-checkbox">
-    <label for="toggle" class="menu-icon">
-    <div class="menu target center">
-      <div class="menu-line menu-line-1"></div>
-      <div class="menu-line menu-line-2"></div>
+  <!-- Sidebar Navbar -->
+  <nav class="navbar">
+    <a href="#home" class="navbar-link">Home</a>
+    <a href="#popular-cars" class="navbar-link">Popular Cars</a>
+    <a href="#video-gallery" class="navbar-link">Video Gallery</a>
+    <a href="#image-gallery" class="navbar-link">Image Gallery</a>
+    <a href="#contact" class="navbar-link">Contact</a>
+  </nav>
+
+  <!-- Top Header -->
+  <header>
+    <div class="top-header">
+      <div class="container">
+        <div class="nav">
+          <div class="logo">
+            <img src="image/main logo.png" alt="Bikyo App Logo" />
+          </div>
+          <div class="nav-part-1">
+            <ul class="nav-menu">
+              <li>Home</li>
+              <li>About</li>
+              <li>Features</li>
+              <li>List</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    </label>
-      <a href="#home" class="navbar-link">Home</a>
-      <a href="#popular-cars" class="navbar-link">Popular Cars</a>
-      <a href="#video-gallery" class="navbar-link">Video Gallery</a>
-      <a href="#image-gallery" class="navbar-link">Image Gallery</a>
-      <a href="#contact" class="navbar-link">Contact</a>
-    </nav>
-    <!-- End of Navbar -->
-    <header>
-        <div class="top-header">
-            <div class="contaner">
-                <div class="nav">
-                    <div class="logo">
-                        <img src="image/main logo.png" alt="logo">
-                    </div>
-                    <div class="nav-part-1">
-                        <ul class="nav-menu">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Featuers</li>
-                            <li>List</li>
-                            <li>Contact</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="main-logo">
-            <img src="image/logo-removebg-preview.png">
-        </div>
-        <div class="About">
-            <p>
-                Welcome to BikyoApp — your go-to bike ride-sharing solution built for speed, savings, and simplicity. Whether you're heading to work, college, or just exploring the city, BikyoApp lets you hop on, split the ride, and share the vibe with ease. Designed for quick, affordable, and eco-friendly travel, our app connects riders with nearby bike owners for a smooth, reliable journey — but two-wheeled and cooler. Join the ride revolution and feel the freedom of the road, together.
-            </p>
-        </div>
-        <div class="soon">
-            <img src="image/ChatGPT_Image_Jul_5__2025__01_47_41_PM-removebg-preview.png">
-        </div>
-<section id="education">
-    <div class="timeline">
+  </header>
 
-        <div class="timeline-box left ">
-            <div class="timeline-container">
-                <h3>0% Commission for Riders</h3>
-                <p class="experience-description text-justify">We believe that every rupee you earn should be yours. That’s why BikyoApp charges absolutely no commission from riders. Enjoy full earnings with transparent transactions and zero hidden fees – because your hard work deserves 100% reward. </p>
-            </div>
-        </div>
-        
-        <div class="timeline-box right ">
-            <div class="timeline-container">
-                <h3>Instant Matching with Nearby Riders</h3>
-                <p class="experience-description text-justify"> No more waiting or endless searching. Our intelligent system instantly connects you with riders or drivers closest to your location. Whether you're heading to work, college, or out for a casual ride – BikyoApp makes it fast and simple. </p>
-            </div>
+  <!-- Main Content -->
+  <main>
+    <!-- Main Logo -->
+    <div class="main-logo">
+      <img src="image/logo-removebg-preview.png" alt="Main Bikyo Logo" />
+    </div>
+
+    <!-- About Section -->
+    <div class="About">
+      <p>
+        Welcome to BikyoApp — your go-to bike ride-sharing solution built for speed, savings, and simplicity. Whether you're heading to work, college, or just exploring the city, BikyoApp lets you hop on, split the ride, and share the vibe with ease.
+      </p>
+    </div>
+
+    <!-- Coming Soon Banner -->
+    <div class="soon">
+      <img src="image/ChatGPT_Image_Jul_5__2025__01_47_41_PM-removebg-preview.png" alt="Coming Soon" />
+    </div>
+
+    <!-- Timeline Section -->
+    <section id="education">
+      <div class="timeline">
+
+        <div class="timeline-box left">
+          <div class="timeline-container">
+            <h3>0% Commission for Riders</h3>
+            <p>We believe that every rupee you earn should be yours. That’s why BikyoApp charges no commission from riders.</p>
+          </div>
         </div>
 
-        <div class="timeline-box left ">
-            <div class="timeline-container">
-                <h3>Real-Time GPS Tracking for Every Ride</h3>
-                <p class="experience-description text-justify">Safety and transparency are our priorities. Track your journey live, share your location with friends or family, and always stay aware. Our integrated GPS ensures smooth navigation and gives both riders and passengers peace of mind.
-                </p>
-            </div>
+        <div class="timeline-box right">
+          <div class="timeline-container">
+            <h3>Instant Matching with Nearby Riders</h3>
+            <p>Our intelligent system instantly connects you with riders or drivers closest to your location.</p>
+          </div>
         </div>
 
-        <div class="timeline-box right ">
-            <div class="timeline-container">
-                <h3>Cheapest Rides Compared to Other Apps</h3>
-                <p class="experience-description text-justify"> Why pay more for the same ride? BikyoApp offers the most affordable fares in the market, without compromising on comfort or safety. Our platform is designed to reduce extra charges, minimize commissions, and prioritize savings for both riders and passengers. Whether it's a short daily commute or a longer journey, BikyoApp ensures you reach your destination at the lowest possible cost – better than Ola, Uber, or any other ride-sharing app out there. </p>
-            </div>
+        <div class="timeline-box left">
+          <div class="timeline-container">
+            <h3>Real-Time GPS Tracking for Every Ride</h3>
+            <p>Track your journey live, share your location, and stay safe.</p>
+          </div>
         </div>
 
-        <div class="timeline-box left ">
-            <div class="timeline-container">
-                <h3>India’s First Dedicated Bike Ride-Sharing Platform</h3>
-                <p class="experience-description text-justify">BikyoApp is pioneering bike ride-sharing in India, offering a smart, affordable, and efficient way to travel in cities and towns. Unlike traditional cab services, our platform is built specifically for two-wheeler rides – perfect for beating traffic, saving fuel, and connecting with nearby riders. Whether you're a student, a working professional, or a daily commuter, BikyoApp brings the freedom of shared bike rides to your fingertips – fast, flexible, and eco-friendly like never before.</p>
-            </div>
+        <div class="timeline-box right">
+          <div class="timeline-container">
+            <h3>Cheapest Rides Compared to Other Apps</h3>
+            <p>BikyoApp offers the most affordable fares, beating Ola, Uber, or other ride-sharing apps.</p>
+          </div>
         </div>
-        
+
+        <div class="timeline-box left">
+          <div class="timeline-container">
+            <h3>India’s First Dedicated Bike Ride-Sharing Platform</h3>
+            <p>BikyoApp pioneers bike ride-sharing in India, offering smart, affordable, and efficient two-wheeler travel.</p>
+          </div>
+        </div>
+
+        <!-- Divider with Icon -->
         <div id="timeline-divider">
-            <div class="timeline-traveller">
-                <div>
-                    <i class="fas fa-car-side"></i>
-                </div>
-            </div>
+          <div class="timeline-traveller">
+            <i class="fas fa-car-side"></i>
+          </div>
         </div>
 
-    </div>
+      </div>
+    </section>
 
-</section>
-        <section id="contact">
-            <div id="contact-container">
+    <!-- Contact Section -->
+    <section id="contact">
+      <div id="contact-container">
 
-                <div id="contact-form-container">
-            <form id="contact-form">
-                <input id="input-name" name="name" type="text" placeholder="Your Name">
-                <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
-                <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
-                <button class="sub-btn" type="submit">SEND MESSAGE</button>
-            </form>
+        <!-- Contact Form -->
+        <div id="contact-form-container">
+          <form id="contact-form">
+            <input name="name" type="text" placeholder="Your Name" />
+            <input name="email" type="email" required placeholder="Your Email" />
+            <textarea name="message" rows="2" cols="40" placeholder="Message"></textarea>
+            <button type="submit" class="sub-btn">SEND MESSAGE</button>
+          </form>
         </div>
+
+        <!-- Contact Details -->
         <div id="my-details-container">
+          <h3>Get In Touch</h3>
+          <p>Your journey starts here. Reach out to us anytime!</p>
 
-            <h3> Get In touch </h3>
-            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-
-            <h3> My Address </h3>
-            <div class="my-details-info-container">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Mainpuri, India</span>
-            </div>
-            <div class="my-details-info-container">
-                <i class="fas fa-mobile-alt"></i>
-                <span>8191039388</span>
-            </div>
-            <div class="my-details-info-container">
-                <i class="far fa-envelope"></i>
-                <span>jinwoson0@gmail.com</span>
-            </div>
+          <h3>My Address</h3>
+          <div class="my-details-info-container">
+            <i class="fas fa-map-marker-alt"></i><span>Mainpuri, India</span>
+          </div>
+          <div class="my-details-info-container">
+            <i class="fas fa-mobile-alt"></i><span>8191039388</span>
+          </div>
+          <div class="my-details-info-container">
+            <i class="far fa-envelope"></i><span>jinwoson0@gmail.com</span>
+          </div>
         </div>
-    </div>
-</section>
-    </main>
+
+      </div>
+    </section>
+
+  </main>
+
 </body>
 </html>
