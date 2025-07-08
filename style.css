@@ -4,11 +4,92 @@
   box-sizing: border-box;
 }
 
-/* Body styling */
+/* Body styling with background image */
 body {
-  background-color: turquoise;
+  background: url('white-tissue-paper-background-with-geometric-design.jpg') no-repeat center center fixed;
+  background-size: cover;
   font-family: sans-serif;
   overflow-x: hidden;
+  color: #333; /* Default text color */
+}
+
+/* Section styling with transparent white background */
+header, 
+.About, 
+.soon, 
+.features-section, 
+#contact,
+.timeline-box,
+#contact-form-container,
+#my-details-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Update text colors for better contrast */
+.About p,
+.timeline-box h3,
+.timeline-box p,
+#my-details-container h3,
+#my-details-container p,
+.my-details-info-container,
+.my-details-info-container i,
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+  color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-link {
+  color: #555;
+}
+
+.navbar-link:hover {
+  color: #111;
+}
+
+/* Contact form styling */
+#contact-form input,
+#contact-form textarea {
+  border-bottom: 2px solid #333;
+  color: #333;
+}
+
+#contact-form button {
+  border: 2px solid #333;
+  color: #333;
+}
+
+#contact-form button:hover {
+  background: #333;
+  color: white;
+}
+
+/* Menu icon styling */
+.menu-line {
+  background-color: #333;
+}
+
+/* Header navigation */
+.nav-menu li a {
+  color: #333;
+}
+
+.nav-menu li a:hover {
+  color: #555;
+}
+
+/* Timeline divider */
+.timeline-traveller i {
+  color: #333;
 }
 
 /* Hamburger Menu Icon */
