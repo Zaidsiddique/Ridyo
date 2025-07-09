@@ -313,7 +313,7 @@ button:focus {
   outline: none;
 }
 .social-icons {
-  margin: 40px 0;
+  margin: 40px 10px;
   text-align: center;
 }
 
@@ -322,7 +322,7 @@ button:focus {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   padding: 0;
   margin: 0;
 }
@@ -334,7 +334,7 @@ button:focus {
 .social-icons a {
   display: inline-block;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -376,10 +376,10 @@ button:focus {
     padding: 15px;
   }
   .social-icons ul {
-    gap: 16px;
+    gap: 20px;
   }
   .social-icons a {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
 }
 
@@ -425,11 +425,11 @@ button:focus {
     width: 100%;
   }
 .social-icons ul {
-    gap: 14px;
+    gap: 17px;
   }
 
   .social-icons a {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -451,10 +451,10 @@ button:focus {
     font-size: 0.9rem;
   }
 .social-icons ul {
-    gap: 12px;
+    gap: 16px;
   }
 
   .social-icons a {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
