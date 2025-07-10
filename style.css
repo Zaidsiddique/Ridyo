@@ -105,7 +105,7 @@ body {
 /* Header Navigation */
 .top-header{
   border-bottom: 2px solid black;
-  background-color: #40c9d6;
+  background-color: #00B2AA;
 }
 .nav {
   height: 110px;
@@ -162,7 +162,6 @@ body {
   width: 100%;
   max-width: 30rem;
   height: auto;
-  background-color: #40c9d6;
 }
 
 /* About Section */
@@ -188,7 +187,7 @@ body {
   justify-content: center;
   padding: 0 20px;
   margin-bottom: 20px;
-  background-color: #40c9d6;
+  background-color: #00B2AA;
 }
 
 .soon img {
