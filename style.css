@@ -99,6 +99,9 @@ body {
 }
 
 /* Header Navigation */
+.top-header{
+  background-color: #40c9d6;
+}
 .nav {
   height: 110px;
   width: 96%;
@@ -108,7 +111,6 @@ body {
   padding: 0 20px;
   border-bottom: 2px solid black;
   margin: 0 auto;
-  background-color: #40c9d6;
 }
 
 .logo img {
@@ -186,6 +188,7 @@ body {
 .soon img {
   max-width: 100%;
   height: auto;
+  background-color: #40c9d6;
 }
 
 /* Timeline Styling */
