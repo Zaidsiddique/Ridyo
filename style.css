@@ -162,6 +162,8 @@ body {
   width: 100%;
   max-width: 30rem;
   height: auto;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* About Section */
