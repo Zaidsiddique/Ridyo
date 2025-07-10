@@ -1,4 +1,6 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,12 +10,13 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Body styling */
 body {
-  background-color: #bebebe;
-  font-family: sans-serif;
+  background-color: #0d1117;
+  font-family: 'Poppins', sans-serif;
+  color: white;
   overflow-x: hidden;
 }
+
 .nav-menu li a,
 .navbar-link,
 .timeline-box h3,
@@ -25,8 +28,8 @@ body {
 #contact-form input,
 #contact-form textarea,
 #contact-form button {
-  color: black !important;
-  border-color: black;
+  color: white !important;
+  border-color: white;
 }
 
 /* Hamburger Menu Icon */
@@ -49,7 +52,7 @@ body {
 .menu-line {
   width: 100%;
   height: 0.2rem;
-  background-color: black;
+  background-color: #f4c430;
   margin: 0.3rem 0;
   transition: all 0.3s ease;
 }
@@ -66,7 +69,7 @@ body {
 .navbar {
   width: 250px;
   height: 100vh;
-  background-color: #fff;
+  background-color: #161b22;
   position: fixed;
   top: 0;
   left: -250px;
@@ -75,7 +78,7 @@ body {
   padding: 5rem 0 0 2rem;
   z-index: 90;
   transition: left 0.3s ease;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 0 10px rgba(244, 196, 48, 0.3);
 }
 
 .navbar-link {
@@ -90,7 +93,7 @@ body {
 }
 
 .navbar-link:hover {
-  color: #111;
+  color: #f4c430;
 }
 
 /* Checkbox hidden for toggle */
@@ -104,8 +107,8 @@ body {
 
 /* Header Navigation */
 .top-header{
-  border-bottom: 2px solid black;
-  background-color: #00B2AA;
+  border-bottom: 2px solid #f4c430;
+  background-color: #161b22;
 }
 .nav {
   height: 110px;
@@ -121,6 +124,7 @@ body {
   height: auto;
   width: 15rem;
   max-width: 100%;
+  filter: brightness(1.1);
 }
 
 .desktop-nav {
@@ -147,7 +151,7 @@ body {
 }
 
 .nav-menu li a:hover {
-  color: white;
+  color: #f4c430;
 }
 
 /* Main Logo */
@@ -164,6 +168,7 @@ body {
   height: auto;
   border-radius: 50%;
   object-fit: cover;
+  border: 4px solid #f4c430;
 }
 
 /* About Section */
@@ -177,7 +182,7 @@ body {
 .About p {
   max-width: 50rem;
   font-size: 1.25rem;
-  color: whitesmoke;
+  color: #e0e0e0;
   font-weight: 900;
   text-align: center;
   line-height: 1.6;
@@ -211,8 +216,9 @@ body {
   width: 100%;
   margin-bottom: 30px;
   position: relative;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
+  border-left: 4px solid #f4c430;
 }
 
 .timeline-container {
@@ -266,7 +272,7 @@ body {
   margin: 10px 0;
   padding: 12px;
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #f4c430;
   background: transparent;
   font-size: 1rem;
   color: white;
@@ -280,9 +286,9 @@ body {
 #contact-form button {
   background: transparent;
   font-size: 1rem;
-  border: 2px solid white;
+  border: 2px solid #f4c430;
   border-radius: 4px;
-  color: white;
+  color: #f4c430;
   padding: 12px 24px;
   margin: 20px 0 0 auto;
   text-transform: uppercase;
@@ -292,8 +298,8 @@ body {
 }
 
 #contact-form button:hover {
-  background: black;
-  color: #bebebe;
+  background: #f4c430;
+  color: #0d1117;
 }
 
 /* Contact Details */
@@ -317,7 +323,7 @@ body {
 }
 
 .my-details-info-container {
-  color: #f0f0f0;
+  color: #f4c430;
   margin-bottom: 20px;
   font-size: 1rem;
   display: flex;
@@ -358,14 +364,14 @@ button:focus {
 
 .social-icons a {
   display: inline-block;
-  color: white;
+  color: #f4c430;
   font-size: 2.5rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-icons a:hover {
   transform: scale(1.2);
-  color: #ffc107; /* gold color on hover */
+  color: white; /* gold color on hover */
 }
 
 /* ================== MEDIA QUERIES ================== */
