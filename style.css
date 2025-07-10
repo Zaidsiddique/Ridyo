@@ -100,6 +100,7 @@ body {
 
 /* Header Navigation */
 .top-header{
+  border-bottom: 2px solid black;
   background-color: #40c9d6;
 }
 .nav {
@@ -109,7 +110,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  border-bottom: 2px solid black;
   margin: 0 auto;
 }
 
