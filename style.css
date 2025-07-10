@@ -6,9 +6,23 @@
 
 /* Body styling */
 body {
-  background-color: turquoise;
+  background-color: #bebebe;
   font-family: sans-serif;
   overflow-x: hidden;
+}
+.nav-menu li a,
+.navbar-link,
+.timeline-box h3,
+.timeline-box p,
+.About p,
+#my-details-container h3,
+#my-details-container p,
+.my-details-info-container,
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+  color: black !important;
+  border-color: black;
 }
 
 /* Hamburger Menu Icon */
@@ -94,6 +108,7 @@ body {
   padding: 0 20px;
   border-bottom: 2px solid black;
   margin: 0 auto;
+  background-color: #40c9d6;
 }
 
 .logo img {
@@ -165,6 +180,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 0 20px;
+  margin-bottom: 20px;
 }
 
 .soon img {
@@ -267,8 +283,8 @@ body {
 }
 
 #contact-form button:hover {
-  background: white;
-  color: turquoise;
+  background: black;
+  color: #bebebe;
 }
 
 /* Contact Details */
