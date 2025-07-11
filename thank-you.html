@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thank You - BikyoApp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
   <style>
     * {
       box-sizing: border-box;
@@ -12,59 +13,77 @@
     }
 
     body {
-      background-color: #f0f9ff;
-      font-family: Arial, sans-serif;
-      min-height: 100vh;
+      background-color: #0d1117;
+      font-family: 'Poppins', sans-serif;
+      color: white;
       display: flex;
       align-items: center;
       justify-content: center;
+      min-height: 100vh;
       padding: 20px;
+      overflow: hidden;
     }
 
     .message-box {
-      background: #ffffff;
+      background-color: #161b22;
+      border: 2px solid #f4c430;
       padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 0 25px rgba(244, 196, 48, 0.2);
       max-width: 500px;
       width: 100%;
-      text-align: center;
+      animation: fadeIn 1s ease-in-out;
     }
 
     .message-box h1 {
-      font-size: 2rem;
-      color: #2a9df4;
-      margin-bottom: 15px;
+      color: #f4c430;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
     }
 
     .message-box p {
-      font-size: 1rem;
-      color: #444;
-      margin-bottom: 25px;
+      font-size: 1.1rem;
+      color: #e0e0e0;
+      margin-bottom: 30px;
+      line-height: 1.6;
     }
 
     .message-box a {
-      text-decoration: none;
-      background-color: #2a9df4;
-      color: white;
-      padding: 12px 24px;
+      background-color: transparent;
+      color: #f4c430;
+      border: 2px solid #f4c430;
+      padding: 12px 28px;
       border-radius: 6px;
-      font-size: 1rem;
-      transition: background-color 0.3s ease;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
       display: inline-block;
     }
 
     .message-box a:hover {
-      background-color: #1a83d5;
+      background-color: #f4c430;
+      color: #0d1117;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
     }
 
     @media (max-width: 480px) {
       .message-box {
-        padding: 25px 20px;
+        padding: 30px 20px;
       }
 
       .message-box h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
       }
 
       .message-box p,
@@ -77,8 +96,8 @@
 <body>
   <div class="message-box">
     <h1>Thank You!</h1>
-    <p>Your message has been sent successfully. We'll get back to you soon.</p>
-    <a href="https://zaidsiddique.github.io/Bikyoapp/">Back to Home</a>
+    <p>Your message has been sent successfully.<br />We’ll get back to you soon.</p>
+    <a href="https://zaidsiddique.github.io/Bikyoapp/">← Back to Home</a>
   </div>
 </body>
 </html>
